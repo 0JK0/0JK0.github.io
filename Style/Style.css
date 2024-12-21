@@ -1,0 +1,176 @@
+@font-face {
+
+  font-family: "Font";
+  src: url(../Resources/Utendo-Medium.ttf);
+
+}
+
+html {
+
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+body {
+
+  display: flex;
+  color: whitesmoke;
+  background-color: #262527;
+  margin-right: 0em ;
+  padding: 1em;
+  font-family: Font;
+
+
+}
+
+.topnav{
+
+  background-color:#1b1b1d;
+  border-radius: 10px;
+
+  margin: 0px;
+  padding: 0px;
+  height: 40px;
+  width: 850px;
+
+  position: fixed;
+  top: 10%;
+  left: 28%;
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+input{
+
+  width: 90%;
+  height: 60%;
+  
+  background-color: #1b1b1d;
+  border: none;
+  outline: none;
+
+  color: whitesmoke;
+
+  font-size: 15px;
+
+}
+
+form{
+
+  display: contents;
+
+}
+
+.whole{
+
+  background-color:#1b1b1d;
+  padding: 0px;
+  margin: 5px;
+  display: flex;
+  border-radius: 15px;
+
+  width: auto;
+  height: 37em;
+  padding-right: 100px;
+
+  position: fixed;
+  top: 15%;
+  left: 25%;
+}
+
+img {
+  height: 500px;
+  width: 300px;
+  margin-left: 4em;
+  margin-right: 5em;
+  margin-top: 1.5em;
+  border-radius: 10px;
+  box-shadow: #332294 0px 0px 50px;
+}
+
+nav {
+
+  display: grid;
+  grid-row-gap: 1em;
+  grid-template-columns: 1fr 1fr;
+  min-width: 24em;
+  grid-auto-rows:max-content ;
+  
+
+}
+
+h1 {
+
+  color: #aa2489;
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 0em;
+  margin-top: 1.5em;
+  margin-left: 0em;
+  grid-column: 1/-1;
+
+}
+
+h2 {
+
+  font-size: 1.6em;
+  font-weight: 800;
+  color: #aa2489;
+  text-align: center;
+  margin-top: 0em;
+  margin-bottom:1.8em;
+  margin-left: 0em;
+  grid-column: 1/-1;
+}
+
+ul {
+
+  margin: 0;
+  padding: 0;
+  white-space:nowrap;
+  list-style-type:none ;
+
+}
+
+li{
+
+  line-height: 1.4em;
+  margin-left: 4,8em;
+
+}
+
+li:first-child {
+
+  display: inline-block;
+  color: #aa2489;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-align: center;
+  line-height: 2em;
+  margin-left: 1.5em;
+
+}
+
+a {
+
+  color: #f4e9db;
+  font-size: 1.3em;
+  text-decoration: none;
+  margin-left: 3.4em;
+  font-size: 800;
+
+}
+
+a:hover {
+
+  color: #9e167c;;
+  font-style: italic;
+
+}
